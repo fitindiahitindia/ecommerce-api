@@ -1,0 +1,1772 @@
+failed
+path must be absolute or specify root to res.sendFile
+TypeError: path must be absolute or specify root to res.sendFile
+    at ServerResponse.sendFile (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\response.js:441:11)
+    at C:\Users\vicky\Desktop\angular\node4\app\app.js:68:7
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\vicky\Desktop\angular\node4\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+
+Mon Apr 08 2024 18:08:53 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\vicky\Desktop\angular\node4\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+
+Mon Apr 08 2024 18:08:53 GMT+0530 (India Standard Time)
+
+failed
+Can't find /api/v1/page/index.html on the server
+Error: Can't find /api/v1/page/index.html on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\vicky\Desktop\angular\node4\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+
+Mon Apr 08 2024 18:09:15 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\vicky\Desktop\angular\node4\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+
+Mon Apr 08 2024 18:09:15 GMT+0530 (India Standard Time)
+
+failed
+Can't find /api/v1/page/index.htm on the server
+Error: Can't find /api/v1/page/index.htm on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\vicky\Desktop\angular\node4\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+
+Mon Apr 08 2024 18:09:24 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\vicky\Desktop\angular\node4\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+
+Mon Apr 08 2024 18:09:24 GMT+0530 (India Standard Time)
+
+failed
+Can't find /api/v1/page/index.html on the server
+Error: Can't find /api/v1/page/index.html on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\vicky\Desktop\angular\node4\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+
+Mon Apr 08 2024 18:09:28 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\vicky\Desktop\angular\node4\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+
+Mon Apr 08 2024 18:09:28 GMT+0530 (India Standard Time)
+
+failed
+path must be absolute or specify root to res.sendFile
+TypeError: path must be absolute or specify root to res.sendFile
+    at ServerResponse.sendFile (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\response.js:441:11)
+    at C:\Users\vicky\Desktop\angular\node4\app\app.js:68:7
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\vicky\Desktop\angular\node4\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+
+Mon Apr 08 2024 18:09:33 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\vicky\Desktop\angular\node4\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+
+Mon Apr 08 2024 18:09:33 GMT+0530 (India Standard Time)
+
+failed
+path must be absolute or specify root to res.sendFile
+TypeError: path must be absolute or specify root to res.sendFile
+    at ServerResponse.sendFile (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\response.js:441:11)
+    at C:\Users\vicky\Desktop\angular\node4\app\app.js:68:7
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\vicky\Desktop\angular\node4\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+
+Mon Apr 08 2024 18:09:52 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\vicky\Desktop\angular\node4\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+
+Mon Apr 08 2024 18:09:52 GMT+0530 (India Standard Time)
+
+failed
+path must be absolute or specify root to res.sendFile
+TypeError: path must be absolute or specify root to res.sendFile
+    at ServerResponse.sendFile (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\response.js:441:11)
+    at C:\Users\vicky\Desktop\angular\node4\app\app.js:68:7
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\vicky\Desktop\angular\node4\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+
+Mon Apr 08 2024 18:09:54 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\vicky\Desktop\angular\node4\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+
+Mon Apr 08 2024 18:09:54 GMT+0530 (India Standard Time)
+
+404
+ENOENT: no such file or directory, stat 'C:\Users\vicky\Desktop\angular\node4\app.\index.html'
+Error: ENOENT: no such file or directory, stat 'C:\Users\vicky\Desktop\angular\node4\app.\index.html'
+
+Mon Apr 08 2024 18:11:30 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\vicky\Desktop\angular\node4\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+
+Mon Apr 08 2024 18:11:31 GMT+0530 (India Standard Time)
+
+404
+ENOENT: no such file or directory, stat 'C:\Users\vicky\Desktop\angular\node4\appindex.html'
+Error: ENOENT: no such file or directory, stat 'C:\Users\vicky\Desktop\angular\node4\appindex.html'
+
+Mon Apr 08 2024 18:11:43 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\vicky\Desktop\angular\node4\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+
+Mon Apr 08 2024 18:11:43 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\vicky\Desktop\angular\node4\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+
+Mon Apr 08 2024 18:12:02 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\vicky\Desktop\angular\node4\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+
+Mon Apr 08 2024 18:12:05 GMT+0530 (India Standard Time)
+
+failed
+Cannot read properties of undefined (reading 'name')
+TypeError: Cannot read properties of undefined (reading 'name')
+    at C:\Users\vicky\Desktop\angular\node4\controller\order\orderCtrl.js:106:39
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Mon Apr 15 2024 08:18:39 GMT+0530 (India Standard Time)
+
+failed
+Cannot read properties of undefined (reading 'name')
+TypeError: Cannot read properties of undefined (reading 'name')
+    at C:\Users\vicky\Desktop\angular\node4\controller\order\orderCtrl.js:106:39
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Mon Apr 15 2024 08:18:51 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/1716903476709-pista.png on the server
+Error: Can't find /category/1716903476709-pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:36:32 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:36:32 GMT+0530 (India Standard Time)
+
+failed
+Can't find /pista.png on the server
+Error: Can't find /pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:36:42 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:36:42 GMT+0530 (India Standard Time)
+
+failed
+Can't find /pista.png on the server
+Error: Can't find /pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:37:54 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:37:55 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/pista.png on the server
+Error: Can't find /category/pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:38:01 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:38:01 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/pista.png on the server
+Error: Can't find /category/pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:38:05 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:38:05 GMT+0530 (India Standard Time)
+
+failed
+Can't find /pista.png on the server
+Error: Can't find /pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:38:38 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:38:39 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/pista.png on the server
+Error: Can't find /category/pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:38:41 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:38:41 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/pista.png on the server
+Error: Can't find /category/pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:40:14 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:40:14 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/pista.png on the server
+Error: Can't find /category/pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:40:16 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:40:16 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/pista.png on the server
+Error: Can't find /category/pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:40:21 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:40:21 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/pista.png on the server
+Error: Can't find /category/pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:41:29 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:41:30 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/pista.png on the server
+Error: Can't find /category/pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:41:32 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:41:32 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/pista.png on the server
+Error: Can't find /category/pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:41:59 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:42:00 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/pista.png on the server
+Error: Can't find /category/pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:42:02 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:42:03 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/pista.png on the server
+Error: Can't find /category/pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:42:05 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:42:06 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/pista.png on the server
+Error: Can't find /category/pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:42:07 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:42:08 GMT+0530 (India Standard Time)
+
+failed
+Can't find /pista.png on the server
+Error: Can't find /pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:42:11 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:42:12 GMT+0530 (India Standard Time)
+
+failed
+Can't find /pista.png on the server
+Error: Can't find /pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:43:49 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:43:50 GMT+0530 (India Standard Time)
+
+failed
+Can't find /pista.png on the server
+Error: Can't find /pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:43:56 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:43:56 GMT+0530 (India Standard Time)
+
+failed
+Can't find /pista.png on the server
+Error: Can't find /pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:43:58 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:43:58 GMT+0530 (India Standard Time)
+
+failed
+Can't find /pista.png on the server
+Error: Can't find /pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:43:59 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:43:59 GMT+0530 (India Standard Time)
+
+failed
+Can't find /pista.png on the server
+Error: Can't find /pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:44:00 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:44:00 GMT+0530 (India Standard Time)
+
+failed
+Can't find /pista.png on the server
+Error: Can't find /pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:44:12 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:44:12 GMT+0530 (India Standard Time)
+
+failed
+Can't find /pista.png on the server
+Error: Can't find /pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:44:13 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:44:14 GMT+0530 (India Standard Time)
+
+failed
+Can't find /pista.png on the server
+Error: Can't find /pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:44:15 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:44:16 GMT+0530 (India Standard Time)
+
+failed
+Can't find /pista.png on the server
+Error: Can't find /pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:44:16 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:44:18 GMT+0530 (India Standard Time)
+
+failed
+Can't find /pista.png on the server
+Error: Can't find /pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:44:37 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:44:38 GMT+0530 (India Standard Time)
+
+failed
+Can't find /pista.png on the server
+Error: Can't find /pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:44:39 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:44:39 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/pista.png on the server
+Error: Can't find /category/pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:44:48 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:44:49 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/pista.png on the server
+Error: Can't find /category/pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:44:50 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:44:50 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/pista on the server
+Error: Can't find /category/pista on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:44:55 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:44:55 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/pista.png on the server
+Error: Can't find /category/pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:44:59 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:44:59 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/pista.png on the server
+Error: Can't find /category/pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:45:27 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:45:27 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/pista.png on the server
+Error: Can't find /category/pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:45:42 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:45:43 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/pista.png on the server
+Error: Can't find /category/pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:46:00 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:46:00 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/pista.png on the server
+Error: Can't find /category/pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:46:08 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:46:08 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/pista.png on the server
+Error: Can't find /category/pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:47:31 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:47:31 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/pista.png on the server
+Error: Can't find /category/pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:47:33 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\cors\lib\index.js:219:13
+
+Wed Jun 12 2024 11:47:33 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/pista.png on the server
+Error: Can't find /category/pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:50:02 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:50:03 GMT+0530 (India Standard Time)
+
+failed
+Can't find /pista.png on the server
+Error: Can't find /pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:50:06 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:50:06 GMT+0530 (India Standard Time)
+
+failed
+Can't find /pista.png on the server
+Error: Can't find /pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:50:08 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:50:09 GMT+0530 (India Standard Time)
+
+failed
+Can't find /pista.png on the server
+Error: Can't find /pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:50:10 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:50:11 GMT+0530 (India Standard Time)
+
+failed
+Can't find /index.php on the server
+Error: Can't find /index.php on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:50:30 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:50:30 GMT+0530 (India Standard Time)
+
+failed
+Can't find /index.html on the server
+Error: Can't find /index.html on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:50:34 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:50:34 GMT+0530 (India Standard Time)
+
+failed
+Can't find /favicon.ico on the server
+Error: Can't find /favicon.ico on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:50:47 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/pista.png on the server
+Error: Can't find /category/pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:51:26 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/pista.png on the server
+Error: Can't find /category/pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 11:51:28 GMT+0530 (India Standard Time)
+

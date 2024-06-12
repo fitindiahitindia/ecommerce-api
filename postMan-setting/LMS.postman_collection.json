@@ -1,0 +1,2493 @@
+{
+	"info": {
+		"_postman_id": "db1dc752-cde3-498b-ba89-5dc72ea28dc4",
+		"name": "LMS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12025673"
+	},
+	"item": [
+		{
+			"name": "Academics",
+			"item": [
+				{
+					"name": "Register Admin",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer {{adminLoginToken}}",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"riya\",\r\n    \"email\":\"riya@gmail.com\",\r\n    \"password\":\"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/admins/register",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"admins",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login Admin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"riya@gmail.com\",\r\n    \"password\":\"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/admins/login",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"admins",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Admins",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer kjflsjdflkasdf",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "localhost:27017/api/v1/admins",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"admins"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Profiles Admins",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:27017/api/v1/admins/profile",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"admins",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Admins",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"riya\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/admins",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"admins"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Admin Suspend Teacher",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Admin unSuspend Teacher",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Admin Withdraw Teacher",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Admin UnWithdraw Teacher",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Admin Publish Exam",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Admin UnPublish Exam",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "AcademicYears",
+			"item": [
+				{
+					"name": "Create Academic-Year",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"2022-2026 Academic Year\",\r\n    \"fromYear\":\"2022\",\r\n    \"toYear\":\"2025\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/academic-years",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"academic-years"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Academic-Years",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/academic-years",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"academic-years"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Single Academic-Year",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/academic-years/64269474a767d6c2dbfb5176",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"academic-years",
+								"64269474a767d6c2dbfb5176"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Academic-Year",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"2022-2023 Academic Year\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/academic-years/64269474a767d6c2dbfb5176",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"academic-years",
+								"64269474a767d6c2dbfb5176"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Academic-Year",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/academic-years/64269474a767d6c2dbfb5176",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"academic-years",
+								"64269474a767d6c2dbfb5176"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "AcademicTerm",
+			"item": [
+				{
+					"name": "Create Academic-Term",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"3rd term\",\r\n    \"description\":\"Third term\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/academic-terms",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"academic-terms"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Academic-Terms",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/academic-terms",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"academic-terms"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Single Academic-Term",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/academic-terms/64326f08f5fdbe66f7cc1b51",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"academic-terms",
+								"64326f08f5fdbe66f7cc1b51"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Academic-Term",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"2nd term\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/academic-terms/64326f08f5fdbe66f7cc1b51",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"academic-terms",
+								"64326f08f5fdbe66f7cc1b51"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Academic-Term",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/academic-years/64269474a767d6c2dbfb5176",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"academic-years",
+								"64269474a767d6c2dbfb5176"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Class Level",
+			"item": [
+				{
+					"name": "Create Class Level",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"level 400\",\r\n    \"description\":\"level 400 class\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/class-levels",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"class-levels"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Class levels",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/class-levels",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"class-levels"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Single Class Level",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/class-levels/6427fc418f25191b19509cd2",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"class-levels",
+								"6427fc418f25191b19509cd2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Class Level",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"level 400\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/class-levels/6427fc418f25191b19509cd2",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"class-levels",
+								"6427fc418f25191b19509cd2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Class Level",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/class-levels/6427fc418f25191b19509cd2",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"class-levels",
+								"6427fc418f25191b19509cd2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Programs",
+			"item": [
+				{
+					"name": "Create Program",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Software Engineering\",\r\n    \"description\":\"This is Software Engineering\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/programs",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"programs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Programs",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/programs",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"programs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Single Program",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/programs/642801315b44e79696a90cf2",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"programs",
+								"642801315b44e79696a90cf2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Program",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Bsc Software Engineering\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/programs/6433f1df0d9879e3d4b28380",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"programs",
+								"6433f1df0d9879e3d4b28380"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Sub To Program",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"English\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/programs/64327341f5fdbe66f7cc1b91/subject",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"programs",
+								"64327341f5fdbe66f7cc1b91",
+								"subject"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Program",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/programs/642801315b44e79696a90cf2",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"programs",
+								"642801315b44e79696a90cf2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Subjects",
+			"item": [
+				{
+					"name": "Create Subject",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Introduction to javascript\",\r\n    \"description\":\"This is Introduction to javascript\",\r\n    \"academicTerm\":\"6427f62f112e2b5535bba8fa\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/subjects/6433f1df0d9879e3d4b28380",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"subjects",
+								"6433f1df0d9879e3d4b28380"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Subjects",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/subjects",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"subjects"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Single Subject",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/subjects/64280e72f32f4f8b2f657fa4",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"subjects",
+								"64280e72f32f4f8b2f657fa4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Subject",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Bsc Software Engineering \"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/subjects/6433f1df0d9879e3d4b28380",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"subjects",
+								"6433f1df0d9879e3d4b28380"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Subject",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/subjects/6427fc418f25191b19509cd2",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"subjects",
+								"6427fc418f25191b19509cd2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Year Groups",
+			"item": [
+				{
+					"name": "Create Year Group",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"2022 year group\",\r\n    \"academicYear\":\"64326cd7f5fdbe66f7cc1b2c\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/year-groups",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"year-groups"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Year Groups",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/year-groups",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"year-groups"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Single Year Group",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/year-groups/642818021400cb43236bc5bf",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"year-groups",
+								"642818021400cb43236bc5bf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Year Group",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"description\":\"This is Bsc Agriculture\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/year-groups/642818021400cb43236bc5bf",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"year-groups",
+								"642818021400cb43236bc5bf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Year Group",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/year-groups/642818021400cb43236bc5bf",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"year-groups",
+								"642818021400cb43236bc5bf"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Teachers",
+			"item": [
+				{
+					"name": "Admin Register Teacher",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Teacher Kavita\",\r\n    \"email\":\"teacher_kavita@gmail.com\",\r\n    \"password\":\"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/teachers/admin/register",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"teachers",
+								"admin",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login Teacher",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"teacher_rohit@gmail.com\",\r\n    \"password\":\"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/teachers/login",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"teachers",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Admin Get All Teachers",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/teachers/admin?limit=4&page=1&name=tea",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"teachers",
+								"admin"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "4"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "name",
+									"value": "tea"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Teacher By Admin",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/teachers/6433f6910d9879e3d4b283b6/admin",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"teachers",
+								"6433f6910d9879e3d4b283b6",
+								"admin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Teacher Profile",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/teachers/6433f6910d9879e3d4b283b6",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"teachers",
+								"6433f6910d9879e3d4b283b6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Teacher Update Profile",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{teacherLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Teacher Rohit\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/teachers/6433f6910d9879e3d4b283b6/update",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"teachers",
+								"6433f6910d9879e3d4b283b6",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Admin Update Teacher",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"program\":\"Bsc Software Engineering\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/teachers/6433f6910d9879e3d4b283b6/update/admin",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"teachers",
+								"6433f6910d9879e3d4b283b6",
+								"update",
+								"admin"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Exams",
+			"item": [
+				{
+					"name": "Create Exam",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{teacherLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"3rd term software engineering exam\",\r\n    \"description\":\"This is 3rd term software engineering exam\",\r\n    \"academicTerm\":\"6427f62f112e2b5535bba8fa\",\r\n    \"academicYear\":\"64326cd7f5fdbe66f7cc1b2c\",\r\n    \"classLevel\":\"6427fb835e831862722fdfc4\",\r\n    \"duration\":\"20 minutes\",\r\n    \"examTime\":\"12pm\",\r\n    \"examType\":\"quiz\",\r\n    \"subject\":\"6433f23e0d9879e3d4b2838e\",\r\n    \"program\":\"6433f1df0d9879e3d4b28380\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/exams",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"exams"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Exam",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{teacherLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"1st term computer science\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/exams",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"exams"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Exam",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{teacherLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"1st term computer science\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/exams/642d31af82e870cad718fae3?",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"exams",
+								"642d31af82e870cad718fae3"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Exam",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{teacherLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"academicTerm\":\"64326f2ef5fdbe66f7cc1b58\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/exams/6434021b5533e854741a1ae6",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"exams",
+								"6434021b5533e854741a1ae6"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Students",
+			"item": [
+				{
+					"name": "Admin Register Student",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"pardeep joshi\",\r\n    \"email\":\"pardeep_joshi@gmail.com\",\r\n    \"password\":\"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/students/admin/register",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"students",
+								"admin",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login Student",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"ranjan@gmail.com\",\r\n    \"password\":\"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/students/login",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"students",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Exam",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer {{teacherLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"1st term computer science\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/exams/642d31af82e870cad718fae3?",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"exams",
+								"642d31af82e870cad718fae3"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Admin Get All Students",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer {{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"1st term computer science\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/students/admin/",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"students",
+								"admin",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Student By Admin",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer {{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"1st term computer science\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/students/642d42c936f7f3650cc8d13b?",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"students",
+								"642d42c936f7f3650cc8d13b"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Student Profile",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{studentLoginToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:27017/api/v1/students/profile",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"students",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Student Update Profile",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer {{studentLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"email\": \"harish@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/students/update",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"students",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Admin Update Student",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"classLevels\": \"Level 400\",\r\n   \"program\":\"6433f1df0d9879e3d4b28380\",\r\n   \"isSuspended\":\"true\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/students/643403045533e854741a1afc/update/admin",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"students",
+								"643403045533e854741a1afc",
+								"update",
+								"admin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Write Exam",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{studentLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"answers\":[\"optionB\",\"optionA\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/students/exam/6434021b5533e854741a1ae6/write",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"students",
+								"exam",
+								"6434021b5533e854741a1ae6",
+								"write"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Questions",
+			"item": [
+				{
+					"name": "Create Question",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{teacherLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"question\":\"What is the full meaning of HTML\",\r\n    \"optionA\":\"Hyper text markup language \",\r\n    \"optionB\":\"high text markup language\",\r\n    \"optionC\":\"hyper text make language\",\r\n    \"optionD\":\"high text markup link\",\r\n    \"correctAnswer\":\"optionA\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/questions/6434021b5533e854741a1ae6",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"questions",
+								"6434021b5533e854741a1ae6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login Student",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer {{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"harish@gmail.com\",\r\n    \"password\":\"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/students/login",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"students",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Questions",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{teacherLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"1st term computer science\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/questions/",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"questions",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Single question",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer {{teacherLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"1st term computer science\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/questions/642e7c8963fab796d153f583",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"questions",
+								"642e7c8963fab796d153f583"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Question Update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer {{teacherLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"question\":\"The Meaning of HTML is ?\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/questions/642e7c8963fab796d153f583",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"questions",
+								"642e7c8963fab796d153f583"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Exam Results",
+			"item": [
+				{
+					"name": "Checking Results",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{studentLoginToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:27017/api/v1/exam-results/64350d2722c3bd44ae66b550/checking",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"exam-results",
+								"64350d2722c3bd44ae66b550",
+								"checking"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Exam Results",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{studentLoginToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:27017/api/v1/exam-results/",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"exam-results",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Admin Publish-Unpublish Exam Result",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{adminLoginToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"publish\":false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:27017/api/v1/exam-results/64350d2722c3bd44ae66b550/admin-toggle-publish",
+							"host": [
+								"localhost"
+							],
+							"port": "27017",
+							"path": [
+								"api",
+								"v1",
+								"exam-results",
+								"64350d2722c3bd44ae66b550",
+								"admin-toggle-publish"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer {{adminLoginToken}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:27017/api/v1/programs",
+					"host": [
+						"localhost"
+					],
+					"port": "27017",
+					"path": [
+						"api",
+						"v1",
+						"programs"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
