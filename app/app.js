@@ -46,8 +46,7 @@ app.use(express.urlencoded({extended:false})); // upload image
 
 //cors all routes
 app.use(cors({
-  origin:"https://ecommerce-api-green.vercel.app",
-  optionsSuccessStatus: 200
+  origin:" * ",
 }));
 
 
