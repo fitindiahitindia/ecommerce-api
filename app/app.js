@@ -72,8 +72,9 @@ app.get("/",(req,res)=>{
   res.sendFile(path.join(__dirname + '/index.html'))
 })
 
-// static category url
+// static  url
 app.use('/category',express.static(path.join(__dirname,'../public/category')))
+app.use('/assets',express.static(path.join(__dirname,'../public/assets')))
 
 //Error middlewares
 app.use(notFoundErr);

@@ -1770,3 +1770,131 @@ Error: Can't find /category/pista.png on the server
 
 Wed Jun 12 2024 11:51:28 GMT+0530 (India Standard Time)
 
+failed
+Can't find /category/1716904573113-cherry.png on the server
+Error: Can't find /category/1716904573113-cherry.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 16:31:42 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/1716903476709-pista.png on the server
+Error: Can't find /category/1716903476709-pista.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 16:31:42 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/1716903511217-cashew.png on the server
+Error: Can't find /category/1716903511217-cashew.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 16:31:42 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/1716903534072-almond.png on the server
+Error: Can't find /category/1716903534072-almond.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 16:31:42 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/1716904554679-dryfruit.png on the server
+Error: Can't find /category/1716904554679-dryfruit.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 16:31:42 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/1716904518416-walnauts.png on the server
+Error: Can't find /category/1716904518416-walnauts.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 16:31:42 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/1716903494646-kishmish.png on the server
+Error: Can't find /category/1716903494646-kishmish.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 16:31:42 GMT+0530 (India Standard Time)
+
+failed
+Can't find /category/1717492268477-cherry.png on the server
+Error: Can't find /category/1717492268477-cherry.png on the server
+    at notFoundErr (C:\Users\vicky\Desktop\angular\node4\middlewares\globalErrHandler.js:36:15)
+    at Layer.handle [as handle_request] (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicky\Desktop\angular\node4\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\vicky\Desktop\angular\node4\node_modules\send\index.js:417:12)
+
+Wed Jun 12 2024 16:31:42 GMT+0530 (India Standard Time)
+
