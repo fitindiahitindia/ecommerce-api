@@ -48,6 +48,8 @@ app.use(cors({
   origin:"*",
 }));
 
+app.options('*', cors())
+
 
 //Routes
 app.use("/api/v1/userAuth", userRouter); 
