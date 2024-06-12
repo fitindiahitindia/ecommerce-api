@@ -21,7 +21,7 @@ const adminDashAnalysisRouter = require("../routes/admin-dashboard-analysis/admi
 
 
 // cors options
-const whitelist = ["https://ecommerce-api-nmaw.vercel.app"];
+const whitelist = ["https://ecommerce-api-green.vercel.app"];
 var corsOptions = {
   origin : function (origin,callback){
     if(origin && whitelist.indexOf(origin) !== -1){
