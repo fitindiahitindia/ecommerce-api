@@ -44,11 +44,9 @@ app.use(express.urlencoded({extended:false})); // upload image
 
 
 //cors all routes
-// app.use(cors({
-//   origin:"*",
-// }));
-
-app.use(cors({origin:true}))
+app.use(cors({
+  origin:"*",
+}));
 
 // app.use(cors({
 //   origin:"*",
