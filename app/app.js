@@ -19,7 +19,6 @@ const adminRoute = require("../routes/auth/adminRoute");
 const blogRouter = require("../routes/blog/blogRouter");
 const adminDashAnalysisRouter = require("../routes/admin-dashboard-analysis/adminDashAnalysisRoute");
 const app = express();
-app.use(cors())
 
 // cors options
 const whitelist = ["https://ecommerce-api-green.vercel.app"];
@@ -45,9 +44,9 @@ app.use(express.urlencoded({extended:false})); // upload image
 
 
 //cors all routes
-// app.use(cors({
-//   origin:" * ",
-// }));
+app.use(cors({
+  origin:"*"
+}));
 
 
 //Routes
