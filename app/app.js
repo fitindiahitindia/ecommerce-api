@@ -44,12 +44,17 @@ app.use(express.urlencoded({extended:false})); // upload image
 
 
 //cors all routes
-app.use(cors({
-  origin:"*",
-}));
+// app.use(cors({
+//   origin:"*",
+// }));
 
-app.options('*', cors())
+// app.options('*', cors())
 
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  next();
+});
 
 //Routes
 app.use("/api/v1/userAuth", userRouter); 
