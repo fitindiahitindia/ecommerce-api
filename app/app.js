@@ -18,37 +18,24 @@ const orderUserRouter = require("../routes/order/orderUserRoute");
 const adminRoute = require("../routes/auth/adminRoute");
 const blogRouter = require("../routes/blog/blogRouter");
 const adminDashAnalysisRouter = require("../routes/admin-dashboard-analysis/adminDashAnalysisRoute");
-
 const app = express();
 
+
 // cors options
-// const whitelist = ["https://ecommerce-api-green.vercel.app"];
-// var corsOptions = {
-//   origin : function (origin,callback){
-//     if(origin && whitelist.indexOf(origin) !== -1){
-//       callback(null,true);
-//     }else{
-//       callback(console.log(new Error("Not allowed by CORS")));
-//     }
-//   },
-//   Credential:true
-// }
-
-const allowedOrigins = ['http://example1.com', 'http://example2.com'];
-app.use(cors({
-  origin: function (origin, callback) {
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error('Origin not allowed by CORS'));
+const whitelist = ["https://ecommerce-api-green.vercel.app"];
+var corsOptions = {
+  origin : function (origin,callback){
+    if(origin && whitelist.indexOf(origin) !== -1){
+      callback(null,true);
+    }else{
+      callback(console.log(new Error("Not allowed by CORS")));
     }
-  }
-}));
+  },
+  Credential:true
+}
 
 
-//cors all routes
 
-app.options('*', cors(allowedOrigins))
 
 //Middlewares
 app.use(express.json()); //pass incoming json data
@@ -57,6 +44,10 @@ app.use(express.urlencoded({extended:false})); // upload image
 
 
 
+//cors all routes
+app.use(cors({
+  origin:"*"
+}));
 
 
 //Routes
