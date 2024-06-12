@@ -48,12 +48,6 @@ app.use(cors({
   origin:"*",
 }));
 
-// app.use(cors({
-//   origin:"*",
-//   methods:['PUT','POST','GET','DELETE'],
-//   allowedHeaders:['Content-Type']
-// }));
-
 
 //Routes
 app.use("/api/v1/userAuth", userRouter); 
