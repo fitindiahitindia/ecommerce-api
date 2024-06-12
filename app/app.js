@@ -79,7 +79,6 @@ app.get("/",(req,res)=>{
 // static category url
 app.use('/category',express.static(path.join(__dirname,'../public/category')))
 
-console.log(path.join(__dirname))
 //Error middlewares
 app.use(notFoundErr);
 app.use(globalErrHandler);
